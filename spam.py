@@ -37,4 +37,4 @@ else:
 		pyautogui.typewrite(message)
 		pyautogui.press('enter')
 		time.sleep(0.5)
-	print("Target has been spmmed successfully! Thanks for using have fun!! ;)")
+	print("Target has been spammed successfully! Thanks for using have fun!! ;)")
