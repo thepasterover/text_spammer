@@ -15,6 +15,7 @@ print("WARNING: I'm not responsible for any damage that may happen to your accou
 	"To be on the safe side make a fake account for sites like FB.")
 print("-" * 100)
 message = input("Enter a message to spam?: ")
+message = str(message)
 count = input("How many times do you want to spam?: ")
 count = int(count)
 
@@ -37,4 +38,5 @@ else:
 		pyautogui.typewrite(message)
 		pyautogui.press('enter')
 		time.sleep(0.5)
-	print("Target has been spammed successfully! Thanks for using have fun!! ;)")
+	print("-" * 100)
+    	print(str(count) + " messages have been sent successfully! .Thanks for using have fun!! ;)")
