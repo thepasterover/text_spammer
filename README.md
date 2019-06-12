@@ -26,6 +26,9 @@ Install pip to install pyautogui:
 
 git clone https://github.com/thepasterover/text_spammer.git
 
+> cd text_spammer
+> python3 spam.py
+
 ## Built With
 -[Python3](https://www.python.org/) - The language used.
 -[PyAutoGui](https://pypi.org/project/PyAutoGUI/) - The module used.
