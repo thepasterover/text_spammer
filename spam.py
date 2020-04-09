@@ -1,5 +1,5 @@
 # !python3
-# Text Spammer - A scrip to spam posts.
+# Text Spammer - A script to spam posts.
 
 """
 WARNING: I'm not responsible for any damage that may happen to your account! Proceed at your own risk!
@@ -15,9 +15,9 @@ print("WARNING: I'm not responsible for any damage that may happen to your accou
 	"To be on the safe side make a fake account for sites like FB.")
 print("-" * 100)
 message = input("Enter a message to spam?: ")
-message = str(message)
-count = input("How many times do you want to spam?: ")
-count = int(count)
+
+count = int(input("How many times do you want to spam?: "))
+
 
 
 # Warn the user for more than 50 entered.
